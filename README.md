@@ -1,89 +1,27 @@
-If there's any issue you are facing in setting up DevJournal theme, I'm there for you. Just create an issue in this repository (http://github.com/hemangsk/DevJournal), (https://help.github.com/articles/creating-an-issue/) and I'll get back to you asap. :smile: :+1:<br>
+# Minimal Mistakes remote theme starter
 
-![alt-tag](https://farm8.staticflickr.com/7062/26385542743_1c7e6b8d9e_o.png) 
+Fork this repo for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
 
-![alt-tag](https://farm8.staticflickr.com/7320/26385629583_eac6861c48_o.png)
+Contains basic configuration to get you a site with:
 
+- Sample posts.
+- Sample top navigation.
+- Sample author sidebar with social links.
+- Sample footer links.
+- Paginated home page.
+- Archive pages for posts grouped by year, category, and tag.
+- Sample about page.
+- Sample 404 page.
+- Site wide search.
 
-![alt-tag](https://farm8.staticflickr.com/7300/26895705412_d6365b9a14_o.png)
+Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
 
+---
 
+## Troubleshooting
 
-![alt-tag](https://farm8.staticflickr.com/7370/26956762406_cbfa7a2139_o.png)
+If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
 
-#### To create a new post :sunglasses:
-
-- Create a .markdown file inside _posts folder.
-- Name the file according to the standard jekyll format.
-```
-   2016-03-30-i-love-design.markdown
-```
-- Write the Front Matter and content in the file.
-    ```
-          ---
-          layout: post | default | page
-          title:  String Post Title
-          date:   Time Stamp
-          categories: String | Array of Strings Category / Categories 
-          ---
-    ```
-    
-    ```
-        ---
-        layout: post
-        title:  "The One with the Blackout"
-        date:   2016-03-30 19:45:31 +0530
-        categories: ["life", "friends"]
-        ---
-    ```  
-
-
-![alt-tag](https://farm8.staticflickr.com/7660/26895189602_170af0a783_o.png)
-![alt-tag](https://farm8.staticflickr.com/7594/26385450183_37116c6d32_o.png)
-
-
-#### Create new pages, such a breeze! :smile:
-- Create a .md file in the root directory.
-- Name the file with the desired page link name.
-```
-   about.md
-```
-```
-   design.md
-```
-- Write the Front Matter and content in the file.
-```
-          ---
-          layout: page
-          title: String Title of the webpage
-          permalink: / String / Permalink for the webpage
-          tagline: String Optional DevJournal Feature : Tagline for the page
-          ---
-```      
-```
-        ---
-        layout: page
-        title:  "Science"
-        permalink:   /science/
-        tagline : "Humanity is overrated."
-        ---
-```      
-
-![alt-tag](https://farm8.staticflickr.com/7124/26895188812_65218d8652_o.png)
-
-
-That's all folks.
-
->Super Flexible, Minimal, Text Based jekyll theme for the kickass geek :sunglasses:
-
-#### It'd be really awesome if ,<br>
-1.  You wish to create some new feature and would like to integrate those in DevJournal. Pull requests are most welcome!
-2.  Consider opening issues if you find bugs or feature requests.
-
-Just so you know, the license type is MIT.
-
-
->Its' all about being community driven.  :bus: :bus: :dash:
-
-Have a great day!  :smile: :smile: :smiley:
-
+- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
+- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
+- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
