@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -108,10 +108,10 @@ analytics:
 # Site Author
 author:
   name             : "Salah Saleh"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  avatar           : #"/assets/images/bio-photo.jpg"
+  bio              : "I am a Cyber Security Engineer and Penetration Tester"
+  location         : "Egypt"
+  email            : "salahsaleh1712@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
