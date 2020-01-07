@@ -109,16 +109,16 @@ analytics:
 author:
   name             : "Salah Saleh"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "I am a Cyber Security Engineer, Penetration Tester and CTF Player"
+  bio              : "I am a **Cyber Security Engineer**, **Penetration Tester** and **CTF Player**"
   location         : "Egypt"
   email            : "salahsaleh1712@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-       url: mailto:your.name@email.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: mailto:your.name@email.com
+    #- label: "Website"
+      #icon: "fas fa-fw fa-link"
+      #url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/"
