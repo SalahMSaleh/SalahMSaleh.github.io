@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "en-US"
 title                    : "yuns.io"
-title_separator          : "HTB and CTF Writups"
+title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Salah Saleh"
 description              : "An amazing website."
@@ -109,13 +109,13 @@ analytics:
 author:
   name             : "Salah Saleh"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "I am a Cyber Security Engineer and Penetration Tester"
+  bio              : "I am a Cyber Security Engineer, Penetration Tester and CTF Player"
   location         : "Egypt"
   email            : "salahsaleh1712@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+       url: mailto:your.name@email.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
