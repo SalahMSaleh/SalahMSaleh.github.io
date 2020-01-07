@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "en-US"
 title                    : "Yuns Blog"
-title_separator          : "-"
+title_separator          : "HTB and CTF Writups"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Salah Saleh"
 description              : "An amazing website."
