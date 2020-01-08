@@ -111,11 +111,11 @@ author:
   avatar           : "/assets/images/bio-photo.jpg"
   bio              : "I am a **Cyber Security Engineer**, **Penetration Tester** and **CTF Player**"
   location         : "Egypt"
-  email            : "salahsaleh1712@gmail.com"
+  #email            : "salahsaleh1712@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:salahsaleh1712@email.com"
+      url: "mailto:salahsaleh1712@gmail.com"
     #- label: "Website"
       #icon: "fas fa-fw fa-link"
       #url: "https://your-website.com"
@@ -131,9 +131,9 @@ author:
     - label: "Linkedin"
       icon: "fab fa-linkedin-in"
       url: "https://www.linkedin.com/in/salah-saleh-2b6a36b6/"
-    #- label: "Instagram"
-    #  icon: "fab fa-fw fa-instagram"
-    #  url: "https://instagram.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
 
 # Site Footer
 footer:
