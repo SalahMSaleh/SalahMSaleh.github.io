@@ -115,7 +115,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:salahsaleh1712@gmail.com"
+      url: "mailto:salahsaleh1712@email.com"
     #- label: "Website"
       #icon: "fas fa-fw fa-link"
       #url: "https://your-website.com"
@@ -128,7 +128,7 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/SalahMSaleh"
-    - label: "Linkedin"
+    - label: " Linkedin"
       icon: "fab fa-linkedin-in"
       url: "https://www.linkedin.com/in/salah-saleh-2b6a36b6/"
     - label: "Instagram"
