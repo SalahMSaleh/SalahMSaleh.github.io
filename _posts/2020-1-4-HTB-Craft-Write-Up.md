@@ -1,5 +1,5 @@
 ---
-title: "Layout: Related Posts Disabled"
+title: "HTB-Craft"
 related: false
 categories:
   - Layout
@@ -9,17 +9,9 @@ tags:
   - layout
 ---
 
-# Craft
-
-Completed: Yes
-Difficulty: Medium
-IP: 10.10.10.110
-OS: Linux
-Retired: Yes
-
 # Box Overview
 
----
+
 
 - Craft Was a nice realistic box That involved Analyzing code that being hosted on Gogs to find missing credentials and a Python Code Injection.
 - First shell inside a docker sadly I didn't see the right thing fast and got drowned in some rabbit holes but got out of them eventually.
@@ -30,11 +22,11 @@ Retired: Yes
 
 # Recon
 
----
+
 
 ## nmap
 
----
+
 
 There is 3 ports open 22(SSH), 443(Web), 6022(SSH)
 
@@ -89,7 +81,7 @@ There is 3 ports open 22(SSH), 443(Web), 6022(SSH)
 
 ## Web
 
----
+
 
 ## SSL Certificate
 
@@ -105,7 +97,7 @@ From SSL certificate we can find a hostname and an email
 
 ### Main
 
----
+
 
 Web had two links to two subdomain **api.craft.htb** and **gogs.craft.htb**
 
@@ -113,7 +105,7 @@ Web had two links to two subdomain **api.craft.htb** and **gogs.craft.htb**
 
 ### API
 
----
+
 
 Nothing interesting was here!
 
@@ -127,7 +119,7 @@ Every time I tried to do anything **API** responded
 
 ### Gogs
 
----
+
 
 On Gogs I found a repository **craft-api**.
 
@@ -218,13 +210,13 @@ I logged in to Gogs with those creds as Dinesh but there was nothing new to what
 
 # Exploitation
 
----
+
 
 So, Right now I will exploit that **python code injection** vulnerability to get a reverse shell.
 
 ## Shell in a Docker
 
----
+
 
 So, I'll use **test.py** and edit it a little bit.
 
@@ -279,7 +271,7 @@ By doing hostname I can see that we are in a docker.
 
 ## Gilfoyle Repo
 
----
+
 
 After some time in the docker trying to enumerate the network, maybe I can pivot to the real box. wasted some time in that and some other rabbit holes.
 
@@ -377,7 +369,7 @@ Gilfoyle creds worked and we did log in to his Gogs account.
 
 ## Shell as Gilfoyle
 
----
+
 
 Every pair of creds I find I always try to SSH with. all creds I've found non of them worked for SSH on both ports.
 
@@ -450,7 +442,7 @@ I got user.txt now.
 
 # Privilege Escalation
 
----
+
 
 Gilfoyle directory had something interesting.
 
