@@ -133,7 +133,7 @@ author:
       url: "https://www.linkedin.com/in/salah-saleh-2b6a36b6/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      #url: "https://instagram.com/"
 
 # Site Footer
 footer:
