@@ -101,7 +101,7 @@ From SSL certificate we can find a hostname and an email
 
 Web had two links to two subdomain **api.craft.htb** and **gogs.craft.htb**
 
-![assets/images/Craft/Untitled.png](Craft/Untitled.png)
+![Craft/Untitled.png](/assets/images/Craft/Untitled.png)
 
 ### API
 
@@ -109,7 +109,7 @@ Web had two links to two subdomain **api.craft.htb** and **gogs.craft.htb**
 
 Nothing interesting was here!
 
-![assets/images/Craft/Untitled.png](Craft/Untitled%201.png)
+![Craft/Untitled%201.png](/assets/images/Craft/Untitled%201.png)
 
 Every time I tried to do anything **API** responded
 
@@ -125,7 +125,7 @@ On Gogs I found a repository **craft-api**.
 
 First look I found an issue that has been opened about a parameter **abv** that value needs to be checked before submitting to the database.
 
-![assets/images/Craft/Untitled.png](Craft/Untitled%202.png)
+![Craft/Untitled%202.png](/assets/images/Craft/Untitled%202.png)
 
 Looking at that commit and analyzing the source code before and after the developer fixed it.
 
