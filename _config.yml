@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Salah Saleh"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "I am a **Cyber Security Engineer**, **Penetration Tester** and **CTF Player**"
+  bio              : "I am a **Cyber Security Engineer**, **Penetration Tester** and **CTF Player**."
   location         : "Egypt"
   #email            : "salahsaleh1712@gmail.com"
   links:
@@ -140,7 +140,7 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url:  "https://twitter.com/SalahMSaleh"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
