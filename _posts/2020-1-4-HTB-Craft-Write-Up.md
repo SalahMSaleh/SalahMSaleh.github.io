@@ -9,10 +9,7 @@ categories:
 tags:
   - related posts
   - layout
-header:
-  img: /assets/images/craft/banner.png
-  post_img: true
-  #icon: /assets/images/hackthebox.webp
+img: /assets/images/craft/banner.png
 ---
 
 # Box Overview
