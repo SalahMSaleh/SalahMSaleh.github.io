@@ -7,6 +7,7 @@ categories:
 tags:
   - related posts
   - layout
+img: /assets/images/craft/banner.png
 ---
 
 # Box Overview

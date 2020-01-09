@@ -11,3 +11,7 @@ layout: archive
 {% endfor %}
 
 {% include paginator.html %}
+
+{% for post in site.posts %}
+<img src="{{ site.baseurl }}/{{ post.img }}">
+{% endfor %}
