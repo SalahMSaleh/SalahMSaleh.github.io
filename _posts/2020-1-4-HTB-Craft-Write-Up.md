@@ -10,8 +10,8 @@ tags:
   - related posts
   - layout
 header:
-  teaser: assets/images/craft/banner.png
-  teaser_home_page: true
+  img: /assets/images/craft/banner.png
+  post_img: true
   #icon: /assets/images/hackthebox.webp
 ---
 
