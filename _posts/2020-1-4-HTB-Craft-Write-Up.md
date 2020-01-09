@@ -1,13 +1,17 @@
 ---
 title: "HTB-Craft"
 related: false
+date: 2020-01-04
 categories:
   - Layout
   - Uncategorized
 tags:
   - related posts
   - layout
-img: assets/images/craft/banner.png
+header:
+  teaser: assets/images/craft/banner.png
+  teaser_home_page: true
+  #icon: /assets/images/hackthebox.webp
 ---
 
 # Box Overview
@@ -29,7 +33,7 @@ img: assets/images/craft/banner.png
 
 
 
-There is 3 ports open 22(SSH), 443(Web), 6022(SSH)
+There is 3 ports open 22(SSH), 443(HTTPS), 6022(SSH)
 
     # Nmap 7.80 scan as: nmap -sT -p- -vv -n -Pn --min-rate 10000 -oN nmap/alltcp 10.10.10.110
     Nmap scan report for 10.10.10.110
