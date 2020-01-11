@@ -1,6 +1,6 @@
 ---
 title: "HTB-Bitlab"
-excerpt: "Although I didn't like Bitlab user part, I liked its root. There was two ways to get root on that box one from Reversing an executable and another from abusing git pull..."
+excerpt: "Although I didn't like Bitlab user part, I liked its root. There was two ways to get root on that box one from Reversing an executable and..."
 related: false
 date: 2020-01-11
 categories:
