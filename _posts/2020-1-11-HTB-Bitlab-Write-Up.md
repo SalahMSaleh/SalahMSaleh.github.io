@@ -364,7 +364,7 @@ Creating reverse shell in post-merge
     www-data@bitlab:/tmp/profile$ sudo git pull
     From ssh://localhost:3022/root/profile
        master     -> origin/master
-     * &#91;new branch]      patch-2603 -> origin/patch-2603
+     * [new branch]      patch-2603 -> origin/patch-2603
     Updating ccf9eff..6c6f8a7
     Fast-forward
      index.php |   2 +-
