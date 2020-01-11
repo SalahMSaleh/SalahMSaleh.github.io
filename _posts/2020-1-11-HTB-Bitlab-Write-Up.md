@@ -86,7 +86,7 @@ Web was a self hosted **GitLab**.
     [+] Add Slash:      true
     [+] Timeout:        10s
     ===============================================================
-    **2019/09/10** 15:18:15 Starting gobuster
+    2019/09/10 15:18:15 Starting gobuster
     ===============================================================
     /.well-known/openid-configuration/ (Status: 200)
     /explore/ (Status: 200)
@@ -97,7 +97,7 @@ Web was a self hosted **GitLab**.
     /root/ (Status: 200)
     /search/ (Status: 200)
     ===============================================================
-    **2019/09/10** 15:30:02 Finished
+    2019/09/10 15:30:02 Finished
     ===============================================================
 
 What was interesting among those directories was /profile /help
