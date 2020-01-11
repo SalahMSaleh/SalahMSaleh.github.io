@@ -4,13 +4,15 @@ excerpt: "Craft Was a nice realistic medium box That involved Analyzing code tha
 related: false
 date: 2020-01-04
 categories:
-  - Layout
-  - Uncategorized
-tags:
-  - related posts
-  - layout
-img: /assets/images/craft/banner.png
+  - HackTheBox
+#  - Uncategorized
+#tags:
+#  - related posts
+#  - layout
+#img: /assets/images/craft/banner.png
 ---
+
+![Craft/Untitled.png](/assets/images/Craft/Untitled3.png)
 
 # Box Overview
 
