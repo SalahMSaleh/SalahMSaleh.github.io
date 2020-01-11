@@ -195,7 +195,7 @@ Doing Merge Request.
 
 And then Accepting the merge request to Master.
 
-![Bitlab/Untitled%2010.png]/assets/images/(Bitlab/Untitled%2010.png)
+![Bitlab/Untitled%2010.png](/assets/images/Bitlab/Untitled%2010.png)
 
 Looking at master branch now it had my script.
 
