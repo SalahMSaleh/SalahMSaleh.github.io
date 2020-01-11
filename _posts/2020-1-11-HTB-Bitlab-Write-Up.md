@@ -100,7 +100,7 @@ Web was a self hosted **GitLab**.
     2019/09/10 15:30:02 Finished
     ===============================================================
 
-What was interesting among those directories was /profile /help
+What was interesting among those directories was **/profile** **/help**
 
 Browesing to /profile was a website for a developer named Clave
 
