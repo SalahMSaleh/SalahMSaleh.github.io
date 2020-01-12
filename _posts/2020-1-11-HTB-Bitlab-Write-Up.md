@@ -169,7 +169,7 @@ Looking at Deployer it had this index.php
 
     echo "OK\n";
 
-When I was doing the box I though have to post to Depolyer to pull my files to server. But that appeared to be wrong later and there is a cronjob or something running it on server.
+When I was doing the box I thought i have to post to Depolyer to pull my files to server. But that appeared to be wrong later and there is a cronjob or something running it on server.
 
 # Exploitation
 
