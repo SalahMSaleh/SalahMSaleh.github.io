@@ -145,7 +145,7 @@ Also found this code snippet.
 
 Enumerating repositories I found that this Profile project is related to the developer website I saw earlier.  
 
-One of the things I didn't like about this box that it is spoiled that I have to upload a shell here because there are other players shells.
+One of the things I didn't like about this box that, it is spoiled that I have to upload a shell here because there are other players shells.
 
 There was a file upload capability and a TODO message.
 
@@ -169,7 +169,7 @@ Looking at Deployer it had this index.php
 
     echo "OK\n";
 
-When I was doing the box I though have to post to Depolyer to pull my files to server. But that appeared to be wrong later and there is a cronjob or something to run it on server.
+When I was doing the box I though have to post to Depolyer to pull my files to server. But that appeared to be wrong later and there is a cronjob or something running it on server.
 
 # Exploitation
 
