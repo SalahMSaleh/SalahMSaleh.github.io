@@ -1,11 +1,10 @@
 ---
 title: "HTB-Craft"
-excerpt: "Craft Was a nice realistic medium box That involved Analyzing code that being hosted on Gogs to find missing credentials and a Python Code Injection..."
+excerpt: "Craft Was a nice realistic medium box That involved Analyzing code that being hosted on Gogs to find missing credentials and a Python Code Injection."
 related: false
 date: 2020-01-04
 categories:
   - HackTheBox
-  - Linux
 #  - Uncategorized
 #tags:
 #  - related posts
@@ -16,7 +15,6 @@ categories:
 ![Craft/Untitled.png](/assets/images/Craft/Untitled3.png)
 
 # Box Overview
-
 
 - Craft Was a nice realistic box That involved Analyzing code that being hosted on Gogs to find missing credentials and a Python Code Injection.
 - First shell inside a docker sadly I didn't see the right thing fast and got drowned in some rabbit holes but got out of them eventually.
