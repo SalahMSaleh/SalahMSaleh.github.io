@@ -2,7 +2,7 @@
 title: "HTB-Player"
 excerpt: "Player was fun and realistic box that had sensitive file and source code exposure, exploiting FFMpeg reading arbitrary files vulnerability..."
 related: false
-date: 2020-01-018
+date: 2020-01-18
 categories:
   - HackTheBox
 #  - Uncategorized
