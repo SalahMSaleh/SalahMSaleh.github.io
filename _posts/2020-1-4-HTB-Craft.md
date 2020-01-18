@@ -5,6 +5,7 @@ related: false
 date: 2020-01-04
 categories:
   - HackTheBox
+  - Linux
 #  - Uncategorized
 #tags:
 #  - related posts
