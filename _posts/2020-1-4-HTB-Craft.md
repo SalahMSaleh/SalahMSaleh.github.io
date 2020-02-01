@@ -1,6 +1,6 @@
 ---
 title: "HTB-Craft"
-excerpt: "Craft Was a nice realistic medium box That involved Analyzing code that being hosted on Gogs to find missing credentials and a Python Code Injection."
+excerpt: "Craft Was a nice realistic medium box That involved Analyzing code that being hosted on Gogs to find missing credentials..."
 related: false
 date: 2020-01-04
 categories:
@@ -13,6 +13,8 @@ categories:
 ---
 
 ![Craft/Untitled.png](/assets/images/Craft/Untitled3.png)
+
+Craft Was a nice realistic medium box That involved Analyzing code that being hosted on Gogs to find missing credentials and a Python Code Injection.
 
 # Box Overview
 
